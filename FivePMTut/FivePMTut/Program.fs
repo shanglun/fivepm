@@ -4,12 +4,14 @@ open Suave.Operators
 open Suave.Filters
 open Suave.Successful
 open Newtonsoft.Json
-
 open Suave.Writers
 
-
-
-type TZInfo = {tzName: string; minDiff: float; localTime: string; utcOffset: float}
+type TZInfo = {
+    tzName: string
+    minDiff: float
+    localTime: string
+    utcOffset: float
+}
 
 // the function takes uint as input, and we representat that as "()"
 let getClosest () = 
