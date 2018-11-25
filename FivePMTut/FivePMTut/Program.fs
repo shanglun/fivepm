@@ -32,7 +32,7 @@ let getClosest () =
              }
     ]
 
-    // We use the pipe operator to chain functiona calls together
+    // We use the pipe operator to chain function calls together
     tzList 
         // filter so that we only get tz after 5pm
         |> List.filter (fun (i:TZInfo) -> i.minDiff >= 0.0) 
@@ -42,7 +42,6 @@ let getClosest () =
         |> List.head
 
 let runWebServer (argv:string[]) = 
-    // Define the port where you want to serve. We'll hard code this for now.
     let port = if argv.Length = 0 then 8080 else (int argv.[0])
     // create an app config with the port
     let cfg =
