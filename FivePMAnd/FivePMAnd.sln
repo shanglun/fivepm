@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FivePMAnd", "FivePMAnd\FivePMAnd.fsproj", "{B75EE0EE-FBE6-4057-B824-9B06C3F5D92E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B75EE0EE-FBE6-4057-B824-9B06C3F5D92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75EE0EE-FBE6-4057-B824-9B06C3F5D92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75EE0EE-FBE6-4057-B824-9B06C3F5D92E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B75EE0EE-FBE6-4057-B824-9B06C3F5D92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75EE0EE-FBE6-4057-B824-9B06C3F5D92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75EE0EE-FBE6-4057-B824-9B06C3F5D92E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF1D6936-4021-4661-917B-ED432E18FE01}
+	EndGlobalSection
+EndGlobal

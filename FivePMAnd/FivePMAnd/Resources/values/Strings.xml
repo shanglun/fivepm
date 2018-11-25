@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">It\'s 5PM Somewhere!</string>
+  <string name="fivePM">It\'s 5PM Somewhere!</string>
+  <string name="app_name">5PM Finder</string>
+</resources>
